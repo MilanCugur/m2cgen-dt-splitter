@@ -1,6 +1,8 @@
 # Project Description
 
-Split large [m2cgen](https://github.com/BayesWitnesses/m2cgen) java trees into subfunctions and avoid Java's 64KB function size limit error and too many constants error.
+Split large [m2cgen](https://github.com/BayesWitnesses/m2cgen) java trees into subroutines  and: 
+    * avoid Java's 64KB function size mempty error 
+    * avoid Java's class too many constants error.
 
 ATTENTION: provide m2cgen (rigid structure!) java code as input.
 
@@ -8,7 +10,7 @@ ATTENTION: provide m2cgen (rigid structure!) java code as input.
 
 * `src`: source code of the project
 
-* `prove`: code to shows that m2cgen param tuning not working right now - all of the generated files have the same number of the subroutines (it isn't affeceted by the param tuning)
+* `prove`: code to shows that currently, `m2cgen` param tuning heuristics don't work - all of the generated files have the same number of the subroutines (it isn't affected by the param fine-tuning)
 
 * `test`: 
     
@@ -16,4 +18,6 @@ ATTENTION: provide m2cgen (rigid structure!) java code as input.
 
     * `model_large`: PRIVATE
 
-* `reflection`: PRIVATE
+* `integr-rflction`: PRIVATE
+
+* `integr-pipeline`: PRIVATE
